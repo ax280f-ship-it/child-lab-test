@@ -1,1 +1,82 @@
-.example-react-component{background-color:#2d7cf1;border-radius:5px;color:#fff;margin:15px 0;padding:20px}.example-react-component h1{font-size:1.2rem;font-weight:400;margin:0;padding:0}.example-react-component p{font-size:.88rem;margin:0}body,html{background-color:#fff}body{color:#333;font-family:sans-serif;font-size:.9rem}@media screen and (min-width:520px){body{font-size:1.1rem;padding:20px}}@media screen and (min-width:768px){body{font-size:1.2rem;padding:60px}}a:link,a:visited{color:#2d7cf1}a:hover{color:#f07}
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/styles/main.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+.example-react-component {
+  margin: 15px 0;
+  background-color: #5230D0;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+.example-react-component h1 {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 0;
+}
+.example-react-component p {
+  margin: 0;
+  font-size: 0.88rem;
+}
+
+html, body {
+  background-color: #FFF;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 520px) {
+  body {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    padding: 60px;
+    font-size: 1.2rem;
+  }
+}
+
+a:link, a:visited {
+  color: #5230D0;
+}
+
+a:hover {
+  color: #ff0077;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/header/header.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.headerlist {
+  list-style-type: none; /* Убирает точки/маркеры */
+  padding: 0; /* Убирает отступы слева */
+  margin: 0; /* Убирает внешние отступы */
+}
+
+/* Располагаем элементы в строку */
+.headerlist li {
+  display: inline-block; /* Элементы будут в одной строке с небольшим отступом */
+  margin-left: 20px; /* Отступ между пунктами */
+}
+
+/* Стили для ссылок (по желанию) */
+.headerlist li a {
+  text-decoration: none; /* Убирает подчеркивание ссылок */
+  font-weight: bold;
+}
+
+.headerlist li:last-child {
+  margin-left: 0; /* Убираем отступ у последнего элемента */
+}
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/toggler/toggler.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+.swichers {
+  background-color: red;
+  color: green;
+}

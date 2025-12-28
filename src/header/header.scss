@@ -1,0 +1,23 @@
+
+.headerlist {
+  list-style-type: none; /* Убирает точки/маркеры */
+  padding: 0;            /* Убирает отступы слева */
+  margin: 0;             /* Убирает внешние отступы */
+}
+
+/* Располагаем элементы в строку */
+.headerlist li {
+  display: inline-block; /* Элементы будут в одной строке с небольшим отступом */
+  margin-right: 20px;    /* Отступ между пунктами */
+}
+
+/* Стили для ссылок (по желанию) */
+.headerlist li a {
+  text-decoration: none; /* Убирает подчеркивание ссылок */
+
+  font-weight: bold;
+}
+
+.headerlist li:last-child {
+  margin-right: 0; /* Убираем отступ у последнего элемента */
+}
